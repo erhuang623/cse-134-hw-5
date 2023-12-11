@@ -1,13 +1,6 @@
-.star-rating {
-    font-size: 40px;
-    cursor: pointer;
-  }
-  
-  .star {
-    color: gray;
-  }
-  
-  .star:hover,
-  .star.active {
-    color: gold;
-  }
+* {
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-weight: normal;
+  font-style: normal;
+
+}
