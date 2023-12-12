@@ -4,3 +4,16 @@
   font-style: normal;
 
 }
+
+#weatherImage {
+  border-radius: 10px;
+
+}
+
+.weather-widget {
+  background-color: lightblue;
+    font-size: 2.1rem;
+    color: lightsalmon;
+    border-radius: 20rem;
+    text-align: center;
+}
