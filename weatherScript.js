@@ -1,4 +1,5 @@
 
+const imageUrl = 'https://api.weather.gov/gridpoints/SGX/55,22/forecast';
 const url = 'https://api.weather.gov/gridpoints/SGX/55,22/forecast';
   fetch(url)
   .then(response => {
@@ -20,4 +21,4 @@ function showWeather(temperature, description, icon) {
   document.getElementById('temperature').innerHTML = temperature +  "°F";
   document.getElementById('description').innerHTML = description;
   document.getElementById('weatherImage').src = icon;
-}
+}  
